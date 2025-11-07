@@ -88,7 +88,7 @@ Flutter öğrenmeden önce Dart temellerini sağlamlaştırmak için idealdir.
 
 ## 🔵 İleri Seviye
 
-19. **Asenkron Programlama**
+19. **[Asenkron Programlama](ileri/asenkron.md)**
     - `Future`, `async`, `await`  
     - `Stream` yapısı ve `yield` kullanımı  
 
