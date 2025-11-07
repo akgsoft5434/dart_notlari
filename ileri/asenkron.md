@@ -29,3 +29,25 @@ void uzunIslem() {
 İşlem bitti!
 Uzun işlem tamamlandı!
 ```
+Burada “İşlem bitti” mesajı uzun işlem tamamlanmadan önce geliyor.
+Bu, asenkron yapının doğal davranışıdır.
+
+## 🔹 2. Future Nedir?
+
+Future, gelecekte bir zamanda hazır olacak bir değeri temsil eder.
+
+```dart
+Future<String> getirVeri() async {
+  return "Veri yüklendi!";
+}
+
+void main() {
+  getirVeri().then((deger) {
+    print(deger);
+  });
+
+  print("İstek gönderildi...");
+}
+```
+
+
